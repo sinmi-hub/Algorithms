@@ -1,2 +1,2 @@
 # Algorithms
-Implementation of various algorithms in C
+Implementation of various algorithms used in every day life in C
