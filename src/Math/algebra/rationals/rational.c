@@ -1,5 +1,6 @@
 #include "rational.h"
 
+
 /*It is assumed that denominator != 0*/
 
 rational_t absolute(rational_t r){
@@ -62,3 +63,11 @@ float exp_real(uint16_t x, rational_t r1){
     float num = (float)r1.numerator / r1.denominator;
     return pow(x, num);
 }
+
+// int main(){
+//     rational_t r1 = {2, 4};
+//     rational_t r2 = {3, 5};
+//     rational_t r3 = add(r1, r2);
+//     printf("r1 + r2 = %d/%d\n", r3.numerator, r3.denominator);
+//     return 0;
+// }

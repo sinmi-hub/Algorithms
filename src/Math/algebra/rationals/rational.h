@@ -1,11 +1,11 @@
 #ifndef RATIONAL_H
 #define RATIONAL_H
-#include  <math.h>
 #include <stdlib.h>
+#include  <math.h>
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include "../../math-basics"
+#include "../../math-basics/basics.h"
 
 typedef struct{
     int16_t numerator;
