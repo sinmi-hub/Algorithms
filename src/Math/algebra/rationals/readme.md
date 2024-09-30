@@ -52,14 +52,26 @@ Where *r* is rational number, in form of *a / b*:
     IF a₂ IS NOT ZERO.`
     ```
 
-Exponentiation of a rational number r = a/b to a non-negative integer power n is r^n = (a^n)/(b^n).
+- **rational_t exp_rational(rational_t r1, int16_t n)**
 
-Exponentiation of a rational number r = a/b to a negative integer power n is r^n = (b^m)/(a^m), where m = |n|.
+    *Exponentiation of Rational Numbers*
+    ```
+    Exponentiation of a rational number r to 
+    
+    a non-negative integer power n is r^n = (a^n)/(b^n).
 
-Exponentiation of a rational number r = a/b to a real (floating-point) number x is the quotient (a^x)/(b^x), which is a real number.
+    negative integer power n is r^n = (b^|n|)/(a^|n|).
+    ```
 
-Exponentiation of a real number x to a rational number r = a/b is x^(a/b) = root(x^a, b), where root(p, q) is the qth root of p.
+- **float exp_real(uint16_t x, rational_t r1)**
 
-### *Dependency*
-gcd() - functionality to find greatest common denominator found in:
+    *Exponentiation of Real numbers to r*
+    ```
+    Exponentiation of a real num x to a rational number r = a/b is x^(a/b) 
+    ```
+
+### *Dependencies*
+- gcd() - functionality to find greatest common denominator found in:
 [https://github.com/sinmi-hub/Algorithms/tree/main/Math/math-basics]
+
+- math libary (-lm) to link while compiling
