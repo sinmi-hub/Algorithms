@@ -1,3 +1,0 @@
-use of static in prime fatcor calculations
-rename all sub readme's with small letter
-complete documentation
