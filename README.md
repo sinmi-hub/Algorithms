@@ -2,10 +2,23 @@
 
 ================================================================
 
-Implementation of various algorithms used in every day life in C
+Implementation of various algorithms in C and Bash
 
 ==================================================================
 
-Some of the test code are sourced from exercism. 
+- [ ] Ongoing Tasks
+    - [x] rename all sub readme's with small letter
+    - [x] complete documentation
+    - [ ] create makefile, ensure to include -lm
 
-Visit [https://exercism.org/tracks/c/exercises]
+- [ ] Math directory
+  - [ ] alegbra
+  - [x] cryptography
+  - [x] math-basics
+
+- [ ] Search Algorithms
+    - [x] Binary Search
+    - [ ] MergeSort
+    - [ ] QuickSort
+    
+
