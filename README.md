@@ -12,7 +12,7 @@ Problems solved here are sourced from exercism, hyperskill and other various int
 
 Some of the languages used:
 - C
-- Bash
+- Bash scripting
 - x86 assembly
 - Python
  
