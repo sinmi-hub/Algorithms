@@ -2,7 +2,7 @@
 
 ================================================================
 
-Implementation of various algorithm
+Implementation of various algorithms
 
 I intend to use this repository as a learning process to solve various problems, using different languages, so I can understand how they work.
 
@@ -33,5 +33,20 @@ Some of the languages used:
     - [x] Binary Search
     - [ ] MergeSort
     - [ ] QuickSort
-    
+
+========================================================================
+
+## Notes
+
+- For *Shell scripts* that uses Bash as interpreters, simply downdload script and give executable permission
+  ```bash
+  chmod +x [filename]
+  ```
+
+- For *C* programs that contain header files, and source files, **gcc** or any other any other compatible complier should be good to create an executable.
+
+- Other flags may be required depending on project
+  ```c
+  gcc -o [filename] [filename.c] 
+  ```
 
